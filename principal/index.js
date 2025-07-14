@@ -1,6 +1,3 @@
-const heroTextTitle = document.querySelector('.hero-text');
-
-const heroSectionTL = gsap.timeline();
 
 heroSectionTL.from(heroTextTitle, {
   duration: 1.2,

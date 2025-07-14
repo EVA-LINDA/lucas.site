@@ -7,7 +7,7 @@ body {
 }
 
 .logo {
-  width: 300px;
+  width: 200px;
   margin: 20px auto;
   display: block;
 }
@@ -62,14 +62,4 @@ nav ul {
 
 
 
-
-#main {
-    width:100%;
-    position: relative;
-    background-color: black;
-    overflow-x: hidden;
-    background-image: url(lucas.jpeg);
-    background-size: cover;
-    background-position: center;
-}
 
