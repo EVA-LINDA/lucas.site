@@ -6,3 +6,8 @@ heroSectionTL.from(heroTextTitle, {
   y: "100%",
   stagger: 0.1
 });
+
+
+function mudarCor(botao) {
+      botao.classList.toggle('clicado');
+}

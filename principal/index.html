@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-      <img src="logo.jpeg" alt="Rukasu ateliê Logo" class="logo">
-    </header>
 
-    <nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Rukasu ateliê Logo" class="logo">
+  </header>
+
+  <nav>
     <ul>
-      <li><a href="index.html" target="_blank"></a>Home</li>
-      <li><a href="produtos.html"></a>Produtos</li>
-      <li><a href="index2.html"></a>Biografia</li>
-      <li><a href="portfolio.html"></a>Portfolio</li>
+      <li><a href="index.html" target="_blank">Home</a></li>
+      <li><a href="produtos.html" target="_blank">Produtos</a></li>
+      <li><a href="index2.html" target="_blank">Biografia</a></li>
+      <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
     </ul>
   </nav>
 
@@ -24,15 +26,18 @@
     <h1 class="hero-text">Lucas</h1>
     <img src="lucas.jpeg" alt="Lucas" class="lucas-img">
     <a href="https://wa.me/5563991364993" target="_blank">
-    <button class="btn-red">WhatsApp</button>
-  </a>
-  <a href="https://www.instagram.com/rukasu_atelier/" target="_blank">
-    <button class="btn-dark">Instagram</button>
-  </a>
+      <button class="btn-red" onclick="mudarCor(this)">WhatsApp</button>
+    </a>
+
+    <a href="https://www.instagram.com/rukasu_atelier/" target="_blank">
+      <button class="btn-dark" onclick="mudarCor(this)">Instagram</button>
+    </a>
   </section>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="index.js"></script>
 
 </body>
+
 </html>

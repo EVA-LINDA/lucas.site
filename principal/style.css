@@ -18,6 +18,7 @@ nav ul {
   list-style: none;
   gap: 20px;
   padding: 10px 0;
+  background-color: #222;
   background: #000;
 }
 
@@ -37,9 +38,6 @@ nav ul {
   margin-top: 20px;
 }
 
-.buttons {
-  margin-top: 20px;
-}
 
 .btn-red {
   background-color: red;
@@ -59,7 +57,13 @@ nav ul {
   font-weight: bold;
   border-radius: 20px;
 }
+button:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
 
-
+button.clicado {
+      background-color: #00b894; /* muda pra verde */
+    }
 
 
