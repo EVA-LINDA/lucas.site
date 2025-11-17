@@ -101,3 +101,16 @@ button.clicado {
     }
 
 
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-voltar:hover {
+    opacity: 0.8;
+}
